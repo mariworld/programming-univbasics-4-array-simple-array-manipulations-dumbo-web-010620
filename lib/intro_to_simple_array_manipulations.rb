@@ -52,7 +52,7 @@ def using_delete(instructors,repeated_name)
 end
 
 famous_robots = ["Johnny 5", "R2D2", "Robocop"]
-def using_delete_at(famous_robots,Integer)
+def using_delete_at(famous_robots,index)
   famous_robots.delete(famous_robots,2)
 end
   
