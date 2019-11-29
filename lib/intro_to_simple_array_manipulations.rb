@@ -46,8 +46,9 @@ def using_flatten(instruments)
 end
 
 instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-def using_delete(instructors,"Steven")
-  instructors.delete
+repeated_name = "Josh"
+def using_delete(instructors,repeated_name)
+  instructors.delete(repeated_name)
 end
 
 famous_robots = ["Johnny 5", "R2D2", "Robocop"]
