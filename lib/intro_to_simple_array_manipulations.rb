@@ -29,7 +29,10 @@ end
 def using_concat(colors_in_the_rainbow,my_favorite_cities)
   colors_in_the_rainbow.concat(my_favorite_cities)
 end
-  
+
+def using_insert(my_favorite_cities,some_string)
+  my_favorite_cities.insert("Chicago")
+end
   
   
   
