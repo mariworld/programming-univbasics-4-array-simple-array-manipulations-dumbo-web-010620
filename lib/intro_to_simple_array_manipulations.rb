@@ -35,6 +35,9 @@ def using_insert(my_favorite_cities,some_string)
   my_favorite_cities.insert(4,new_city)
 end
 
-def using_uniq()
+haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
+def using_uniq(haircuts)
+  haircuts.uniq
+end
   
   
