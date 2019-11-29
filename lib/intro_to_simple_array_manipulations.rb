@@ -34,6 +34,7 @@ def using_insert(my_favorite_cities,some_string)
   new_city = "Python"
   my_favorite_cities.insert(4,new_city)
 end
-  
+
+def using_uniq()
   
   
