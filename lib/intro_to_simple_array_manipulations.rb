@@ -54,6 +54,6 @@ end
 famous_robots = ["Johnny 5", "R2D2", "Robocop"]
 some_int = Integer
 def using_delete_at(int,famous_robots)
-  famous_robots.delete(2,famous_robots)
+  famous_robots.delete(some_int,famous_robots)
 end
   
