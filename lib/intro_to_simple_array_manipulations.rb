@@ -31,7 +31,7 @@ def using_concat(colors_in_the_rainbow,my_favorite_cities)
 end
 
 def using_insert(my_favorite_cities,some_string)
-  my_favorite_cities.insert("Chicago")
+  my_favorite_cities[4] = my_favorite_cities.insert("Chicago")
 end
   
   
